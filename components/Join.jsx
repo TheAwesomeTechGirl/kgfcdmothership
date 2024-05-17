@@ -6,12 +6,12 @@ function Join() {
   const handleClick = () => {
     console.log("Button clicked!");
   };
-  // style={{ backgroundImage: "url('./Asset.svg')"  }}
-  // bg-opacity-100
-  // relative
-  // bg-no-repeat bg-right
+
   return (
-    <div className="bg-[#E3B522] p-8  items-center justify-between text-[#1D1D1D] bg-opacity-100 relative bg-no-repeat bg-right" style={{ backgroundImage: "url('./Asset.svg')", width: "100%" }}>
+    <div
+      className="bg-[#E3B522] p-8  items-center justify-between text-[#1D1D1D] bg-opacity-100 relative bg-no-repeat bg-right"
+      style={{ backgroundImage: "url('./Asset.svg')", width: "100%" }}
+    >
       <div className="  space-y-6 ">
         <h1 className="text-[15px] font-bold leading-[28px] sm:text-[25px] md:text-[16px] lg:text-[16px]">
           THE JOURNEY TO BUILDING A BETTER WORLD STARTS HERE WITH YOU
