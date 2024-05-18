@@ -1,6 +1,6 @@
 "use client"; // Add this line at the top
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Button from "./Button";
 import assetImage from "../public/images/Asset.svg"; // Adjust the path to your Asset.svg
 

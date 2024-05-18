@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 // Import images
 import footerLogo from "../public/footerLogo.svg";
@@ -50,7 +50,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-gray-100 border-400 mt-4 md:mt-10">
-          <div className="footersocial flex flex-row mt-4 space-x-6 md:space-x-10 justify-center items-center">
+          <div className="footersocial flex flex-row mt-4 gap-4 md:gap-10 justify-center items-center">
             <Image src={facebookIcon} alt="facebook" className="w-6 ml-2" />
             <Image src={instagramIcon} alt="instagram" className="w-6 ml-2" />
             <Image src={twitterIcon} alt="twitter" className="w-6 ml-2" />
