@@ -5,18 +5,21 @@ import cuteblackbaby from "/public/cuteblackbaby.svg";
 function Homepage() {
   return (
     <div>
-      <div className="w-full h-screen p-5   relative flex items-center text-left text-[#F1F1F1]">
+      <div className="relative w-full h-screen  p-5 flex items-center text-left text-[#F1F1F1]">
         <Image
           src={cuteblackbaby}
           layout="fill"
           objectFit="cover"
-          quality={100}
+          style={{ width: '100%' }}
+          className="opacity-[300] bg-black-50"
           alt="Cute Black Baby"
         />
 
-        <div className="max-w-md mx-16 z-10">
-          <h1 className="text-4xl font-bold mb-4">OUR MANDATE</h1>
-          <p>
+        <div className="absolute z-10 max-w-md mx-4 sm:mx-8 md:mx-16">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 md:mb-4">
+            OUR MANDATE
+          </h1>
+          <p className="text-sm sm:text-base md:text-lg">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
             porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
             purus lectus malesuada libero, sit amet commodo magna eros quis

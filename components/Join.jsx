@@ -1,8 +1,8 @@
-"use client"; // Add this line at the top
+"use client"; 
 import React from "react";
-import Image from "next/legacy/image";
+
 import Button from "./Button";
-import assetImage from "../public/images/Asset.svg"; // Adjust the path to your Asset.svg
+import assetImage from "../public/images/Asset.svg"; 
 
 function Join() {
   const handleClick = () => {
