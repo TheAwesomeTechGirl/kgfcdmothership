@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 import Image from "next/legacy/image";
 import cuteblackbaby from "/public/cuteblackbaby.svg";
 
@@ -11,14 +12,15 @@ function Homepage() {
           layout="fill"
           objectFit="cover"
           style={{ width: '100%' }}
-          className="opacity-[300] bg-black-50"
+          className="opacity-[50.0] bg-black-50"
           alt="Cute Black Baby"
         />
 
         <div className="absolute z-10 max-w-md mx-4 sm:mx-8 md:mx-16">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 md:mb-4">
-            OUR MANDATE
-          </h1>
+         
+            <Link href="/page-three" className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 md:mb-4">
+          OUR MANDATE
+      </Link>
           <p className="text-sm sm:text-base md:text-lg">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
             porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,

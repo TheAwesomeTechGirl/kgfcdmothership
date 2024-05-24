@@ -17,7 +17,7 @@ function Footer() {
             <Image
               src={footerLogo}
               alt="footerlogo"
-              className="w-10 h-10 md:w-24 md:h-24 mr-2"
+              className="w-10 h-10 md:w-20 md:h-20 mr-2"
             />
             <p className="font-light text-[12px] md:text-[14px]">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
@@ -51,10 +51,10 @@ function Footer() {
 
         <div className="border-t border-gray-100 border-400 mt-4 md:mt-10">
           <div className="footersocial flex flex-row mt-4 gap-4 md:gap-10 justify-center items-center">
-            <Image src={facebookIcon} alt="facebook" className="w-6 ml-2" />
-            <Image src={instagramIcon} alt="instagram" className="w-6 ml-2" />
-            <Image src={twitterIcon} alt="twitter" className="w-6 ml-2" />
-            <Image src={youtubeIcon} alt="youtube" className="w-6 ml-2" />
+            <Image src={facebookIcon} alt="facebook" className="w-4 ml-2" />
+            <Image src={instagramIcon} alt="instagram" className="w-4 ml-2" />
+            <Image src={twitterIcon} alt="twitter" className="w-4 ml-2" />
+            <Image src={youtubeIcon} alt="youtube" className="w-4 ml-2" />
           </div>
         </div>
       </div>
