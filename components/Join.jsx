@@ -1,35 +1,39 @@
 "use client"; 
 import React from "react";
 
-import Button from "./Button";
-import assetImage from "../public/images/Asset.svg"; 
 
 function Join() {
-  const handleClick = () => {
-    console.log("Button clicked!");
-  };
-
   return (
-    <div
-      className="bg-[#E3B522] p-8 items-center justify-between text-[#1D1D1D] bg-opacity-100 relative bg-no-repeat bg-right w-[20%]"
-      style={{ backgroundImage: `url(${assetImage.src})`, width: "100%" }}
-    >
-      <div className="space-y-6">
-        <h1 className="text-[15px] font-bold leading-[28px] sm:text-[25px] md:text-[16px] lg:text-[16px]">
+
+    <section>
+    <div className="w-full h-[357px] bg-amber-400 flex flex-col lg:flex-row justify-center items-center lg:items-start lg:justify-between px-6 lg:px-12">
+      <div className="mt-9 ml-11 lg:max-w-[800px] lg:mr-12 text-center lg:text-left">
+        <div className="text-stone-900 text-[25px] font-bold font-['Calibri'] leading-7 mt-4">
           THE JOURNEY TO BUILDING A BETTER WORLD STARTS HERE WITH YOU
-        </h1>
-        <p className="font-normal text-[16px] md:text-[10px] lg:text-[12px] leading-[22.5px]">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Maecenas
-          porttitor congue massa. Fusce posuere,magna sed
-          <br />
-          pulvinar ultricies, purus lectus malesuada libero,sit amet commodo
-          magna eros quis urna,Nunc viverra imperdiet
-          <br />
-          enim. Fusce est.
-        </p>
-        <Button text="GET INVOLVED" onClick={handleClick} />
+        </div>
+        <div className="w-full text-black text-xl font-normal font-['Calibri'] leading-snug mt-4">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+          porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
+          purus lectus malesuada libero, sit amet commodo magna eros quis
+          urna. Nunc viverra imperdiet enim. Fusce est.
+        </div>
+        <div className="px-14 py-4  bg-cyan-500 rounded-[56px] mt-11 inline-block">
+          <div className="text-stone-900 text-[25px] font-bold font-['Calibri'] leading-7">
+            GET INVOLVED
+          </div>
+        </div>
       </div>
+
+        <img
+          className="w-[326px] h-[326px] -mr-[134px] mt-4 -rotate-2"
+          src="/images/Asset.svg"
+          alt="Placeholder"
+        />
+
     </div>
+  </section>
+
+  
   );
 }
 
