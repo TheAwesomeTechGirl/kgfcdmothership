@@ -1,16 +1,12 @@
-import React from 'react'
-import Mandates from './mandate/Mandates'
-import Programs from './programs/Program'
-import Tribe from './tribes/Tribe'
+import Mandate from './Mandate';
 
-function page() {
+
+export default function page() {
   return (
-    <div>
-      <Mandates/>
-      <Programs/>
-      <Tribe/>
-    </div>
-  )
+    <section className="overflow-hidden">
+     <Mandate/>
+    </section>
+     
+   
+  );
 }
-
-export default page

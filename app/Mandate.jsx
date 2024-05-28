@@ -1,11 +1,21 @@
-import React from "react";
+
 import Link from "next/link";
 import Image from "next/legacy/image";
-import cuteblackbaby from "/public/cuteblackbaby.svg";
+import cuteblackbaby from "../public/cuteblackbaby.svg"
+import Header from "@/components/Header";
+import Aboutus from "@/components/Aboutus";
+import Team from "@/components/Team";
+import Partners from "@/components/Partners";
+import Join from "@/components/Join";
+import Footer from "@/components/Footer";
 
-function Mandates() {
+export default function page() {
   return (
-    <section>
+    <section className="overflow-hidden">
+      <div className="w-full h-[113px] fixed top-0 z-50 flex items-center justify-center">
+        <Header />
+      </div>
+      <section>
       <div className="w-full  md:h-[600px]">
         <div className="relative">
           <Image
@@ -29,7 +39,12 @@ function Mandates() {
         <div className="inset-0 absolute md:h-[640px] bg-black opacity-50"></div>
       </div>
     </section>
+      <Aboutus />
+      <Team />
+      <Partners />
+      <Join />
+      <Footer />
+    </section>
   );
 }
 
-export default Mandates;
