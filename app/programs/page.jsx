@@ -21,10 +21,11 @@ export default function page() {
         <Header />
       </div>
       <Program />
-      <section>
-        <div className="container mx-auto p-10">
-          <h1 className="text-center text-2xl font-bold mb-8">What We Do</h1>
 
+
+      <section>
+        <div className="container mx-auto p-32">
+          <h1 className="text-center text-2xl font-bold ">What We Do</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             <div className="flex flex-col items-center text-center mt-10">
               <Image
@@ -38,7 +39,7 @@ export default function page() {
               <div className="w-[85px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
             <div className="gap-[96px]">
-              <p className="mr-24 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
+              <p className="mr-24 p-10 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed
                 pulvinar ultricies, purus lectus malesuada libero, sit amet
