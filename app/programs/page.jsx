@@ -72,7 +72,7 @@ export default function page() {
               <div className="w-[132px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
             <div>
-              {" "}
+              
               <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed

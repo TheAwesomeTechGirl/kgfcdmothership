@@ -1,12 +1,14 @@
 import React from 'react'
-import mandate from './mandate/page'
-import programs from './programs/page'
+import Mandates from './mandate/Mandates'
+import Programs from './programs/Program'
+import Tribe from './tribes/Tribe'
 
 function page() {
   return (
     <div>
-      <mandate/>
-      <programs/>
+      <Mandates/>
+      <Programs/>
+      <Tribe/>
     </div>
   )
 }

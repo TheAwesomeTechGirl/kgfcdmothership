@@ -24,7 +24,7 @@ function Header() {
         <Link href="/">Home</Link>
         <Link href="/mandate">Our Mandate</Link>
         <Link href="/programs">Programs</Link>
-        <Link href="/tribepage">Our Tribe</Link>
+        <Link href="/tribes">Our Tribe</Link>
         <Link href="/news">News</Link>
         <div>Blog</div>
         <Link href="/contact-us">
