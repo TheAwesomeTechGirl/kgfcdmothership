@@ -18,6 +18,16 @@ function Aboutus() {
             malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra.
           </p>
           <h1 className="text-[20px] font-bold">Our History</h1>
+                  <p className="text-[12px] font-normal">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
+                      purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                      Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant
+                      morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing Maecenas porttitor
+                      congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus
+                      malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra.
+                  </p>
         </div>
         <div className="w-screen md:w-[30%] mt-10 flex justify-end items-end  lg:mt-10">
           <img 
