@@ -28,6 +28,7 @@ function Aboutus() {
                       congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus
                       malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra.
                   </p>
+
         </div>
         <div className="w-screen md:w-[30%] mt-10 flex justify-end items-end  lg:mt-10">
           <img 
