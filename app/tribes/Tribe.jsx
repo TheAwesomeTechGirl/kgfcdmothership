@@ -17,7 +17,7 @@ function Tribe() {
         </div>
         <div className="absolute top-[100px] md:top-[270px] md:w-[589px] z-50  md:ml-[8%]">
           <h1 className="text-zinc-100 text-center  font-bold md:text-[50px] mb-4">
-            <Link href="/mandate">OUR TRIBE</Link>
+            <Link href="/">OUR TRIBE</Link>
           </h1>
           <p className="md:text-xl font-normal text-center text-zinc-100">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas

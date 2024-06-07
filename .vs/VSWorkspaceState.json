@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app"
+    "\\app",
+    "\\app\\programs"
   ],
+  "SelectedNode": "\\app\\programs\\Program.jsx",
   "PreviewInSolutionExplorer": false
 }

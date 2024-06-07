@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/legacy/image";
+import Link from "next/link";
+
 
 // Import images
 import footerLogo from "../public/footerLogo.svg";
-import facebookIcon from "../public/baselinefacebook.svg";
-import instagramIcon from "../public/instagram.svg";
-import twitterIcon from "../public/twitter.svg";
-import youtubeIcon from "../public/youtube.svg";
+import { MdFacebook } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa6";
+import { LuTwitter } from "react-icons/lu";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -17,7 +19,7 @@ function Footer() {
             <Image
               src={footerLogo}
               alt="footerlogo"
-              className="w-10 h-10 md:w-20 md:h-20 mr-2"
+              className="w-10 h-10 md:w-16 md:h-16 mr-2"
             />
             <p className="font-light text-[12px] md:text-[14px]">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
@@ -26,22 +28,22 @@ function Footer() {
             </p>
           </div>
 
-          <div className="Footeritems text-[12px] w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:text-[20px] md:text-[14px] font-normal md:w-[70%] leading-[28px] mt-3 mb-4">
+          <div className="Footeritems text-[10px] w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3  md:text-[14px] font-normal md:w-[70%] leading-[28px] mt-3 mb-4">
             <ul className="space-y-3">
-              <li>Reach Us</li>
-              <li>About Us</li>
+              <li className="lg:text-[18px]">Reach Us</li>
+              <li><Link href="/">About Us</Link></li>
               <li>Contact Us</li>
             </ul>
 
             <ul className="space-y-3">
-              <li>Programs</li>
-              <li>Arts</li>
+               <li className="lg:text-[18px]"><Link href="/programs">Programs</Link></li>
+                <li><Link href="/programs">Arts</Link></li>
               <li>SDGs</li>
-              <li>Entrepreneurship</li>
+               <li><Link href="/programs">Entrepreneurship</Link></li>
             </ul>
 
             <ul className="space-y-3">
-              <li>Resources</li>
+              <li className="lg:text-[18px]">Resources</li>
               <li>Blog</li>
               <li>Privacy Policy</li>
               <li>News</li>
@@ -49,14 +51,22 @@ function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-100 border-400 mt-4 md:mt-10">
-          <div className="footersocial flex flex-row mt-4 gap-4 md:gap-10 justify-center items-center">
-            <Image src={facebookIcon} alt="facebook" className="w-4 ml-2" />
-            <Image src={instagramIcon} alt="instagram" className="w-4 ml-2" />
-            <Image src={twitterIcon} alt="twitter" className="w-4 ml-2" />
-            <Image src={youtubeIcon} alt="youtube" className="w-4 ml-2" />
-          </div>
-        </div>
+        <div className="border-t border-gray-100 mt-4 md:mt-10">
+      <div className="footersocial flex flex-row mt-4 gap-4 md:gap-10 justify-center items-center">
+        <Link href="https://www.facebook.com/kindlegatefoundation">
+          <MdFacebook className="w-6 h-6 md:w-8 md:h-8" />
+        </Link>
+        <Link href="https://www.instagram.com/kindlegatefoundation/?hl=en">
+          <FaInstagram className="w-6 h-6 md:w-8 md:h-8" />
+        </Link>
+        <Link href="https://twitter.com/kindlegatecares">
+          <LuTwitter className="w-6 h-6 md:w-8 md:h-8" />
+        </Link>
+        <Link href="https://www.linkedin.com/in/kindle-gate-foundation-090080284/">
+          <FaLinkedinIn className="w-6 h-6 md:w-8 md:h-8" />
+        </Link>
+      </div>
+    </div>
       </div>
     </div>
   );

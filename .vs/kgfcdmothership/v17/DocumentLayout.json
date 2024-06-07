@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\Mandate.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Mandate.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\page.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\page.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\programs\\Program.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\programs\\Program.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "page.jsx",
-              "DocumentMoniker": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\page.jsx",
-              "RelativeDocumentMoniker": "app\\page.jsx",
-              "ToolTip": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\page.jsx",
-              "RelativeToolTip": "app\\page.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "Program.jsx",
+              "DocumentMoniker": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\programs\\Program.jsx",
+              "RelativeDocumentMoniker": "app\\programs\\Program.jsx",
+              "ToolTip": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\programs\\Program.jsx",
+              "RelativeToolTip": "app\\programs\\Program.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-28T14:42:52.523Z",
+              "WhenOpened": "2024-05-31T19:02:13.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Mandate.jsx",
-              "DocumentMoniker": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\Mandate.jsx",
-              "RelativeDocumentMoniker": "app\\Mandate.jsx",
-              "ToolTip": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\app\\Mandate.jsx",
-              "RelativeToolTip": "app\\Mandate.jsx",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Title": "Footer.jsx",
+              "DocumentMoniker": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\components\\Footer.jsx",
+              "RelativeDocumentMoniker": "components\\Footer.jsx",
+              "ToolTip": "C:\\Users\\TUKE GLORY NWAKAEGO\\Desktop\\kgfcdmothership\\components\\Footer.jsx",
+              "RelativeToolTip": "components\\Footer.jsx",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-28T14:40:56.82Z",
+              "WhenOpened": "2024-05-31T18:54:21.549Z",
               "EditorCaption": ""
             }
           ]

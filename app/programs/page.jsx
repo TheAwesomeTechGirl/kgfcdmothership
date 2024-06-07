@@ -16,7 +16,7 @@ import africantribal from "/public/africantribal.svg";
 
 export default function page() {
   return (
-    <section className="overflow-hidden.">
+    <section className="overflow-hidden">
       <div className="w-full h-[113px] fixed top-0 z-50 flex items-center justify-center">
         <Header />
       </div>
